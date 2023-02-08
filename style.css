@@ -62,3 +62,8 @@ section {
 #form {
     display:none;
 }
+
+p {
+    max-width:80ch;
+    margin:16px auto;
+}
