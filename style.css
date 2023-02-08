@@ -18,6 +18,11 @@ body {
 button {
     padding:16px 48px;
     margin:16px;
+    border-radius:16px;
+}
+
+button:hover {
+    background-color: #E1C67C;
 }
 
 img {
@@ -40,4 +45,8 @@ section {
 
 .fine-print {
     font-size:smaller;
+}
+
+#form {
+    display:none;
 }
