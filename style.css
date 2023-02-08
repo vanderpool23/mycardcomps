@@ -22,7 +22,16 @@ img {
     max-width:100%;
 }
 
+section {
+    margin:32px 0px;
+}
+
 .logo {
     max-width:300px;
     margin:auto;
+}
+
+.d-flex {
+    display:flex;
+    justify-content:center;
 }
