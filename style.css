@@ -25,6 +25,10 @@ button:hover {
     background-color: #E1C67C;
 }
 
+.color-secondary {
+    color: #E1C67C;
+}
+
 img {
     max-width:100%;
 }
