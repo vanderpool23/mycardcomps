@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCardComps - My Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="d-flex justify-content-center">
+        <div class="logo">
+            <img src="images/logo-mycardcomps.png" alt="My Card Comps">
+        </div>
+    </header>
+    <section class="color-secondary">
+        <h1>My Collection</h1>
+        <ul>
+            <li>Set: <span class="text-white">2022 Spectra</span></li>
+            <li>Variation: <span class="text-white">Wavelength</span></li>
+            <li>Card number: <span class="text-white">WVE-13</span></li>
+            <li>Name(s): <span class="text-white">Davante Adams</span></li>
+            <li>#: <span class="text-white">2/4</span></li>
+            <li>Cert#: <span class="text-white">75679250</span></li>
+            <li>Grade: <span class="text-white">PSA 10</span></li>
+        </ul>
+        <img src="images/cards/2022-spectra-wavelength-davante-adams-front.jpeg" class="card-thumb">
+        <img src="images/cards/2022-spectra-wavelength-davante-adams-back.jpeg" class="card-thumb">
+    </section>
+    
+    <footer class="d-flex justify-content-center">
+        <p class="fine-print">Copyright &copy; 2023 Vanderpool Consulting, LLC.</p>
+    </footer>
+    <script>
+        function toggleDiv(form) {
+            var div = document.getElementById(form);
+            if (div.style.display === "none") {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
