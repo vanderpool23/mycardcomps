@@ -79,3 +79,7 @@ p {
 .text-white {
     color:white;
 }
+
+.center-video {
+    text-align: center;
+}
