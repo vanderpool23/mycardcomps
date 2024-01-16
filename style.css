@@ -71,3 +71,11 @@ p {
     max-width:80ch;
     margin:16px auto;
 }
+
+.card-thumb {
+    height:200px;
+}
+
+.text-white {
+    color:white;
+}
