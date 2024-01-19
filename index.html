@@ -16,12 +16,11 @@
         </div>
     </header>
     <section class="color-secondary" style="text-align:center">
-        <p>Please note, we are in the development phase of this project.</p>
+        <p>Please note, we are in the development phase of this project. See the <a href="#issues">Known Issues</a> below.</p>
     </section>
-    <section id="form-button" class="d-flex">
-    </section>
-    <section id="form" class="">
-    </section>
+    <div style="text-align:center">
+        <a href="https://chat.openai.com/g/g-lC4S2I4GR-my-card-comps-v1-0" target="_blank"><button type="button" class="btn btn-primary"><h2>Use MyCardComps</h2></button></a>
+    </div>
     <section id-="about">
         <h1>About MyCardComps</h1>
         <p>Welcome to MyCardComps, where we determine sports card values using Generative Pre-trained Transformer (GPT) technology. Our goal is to remove some of the confusion around and time it takes to identify cards and their values.</p>
@@ -31,28 +30,21 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HFrCtk6Qi-I?si=yfcUglvYAltgAH6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
-        <div style="text-align:center">
-            <a href="https://chat.openai.com/g/g-lC4S2I4GR-my-card-comps-v1-0" target="_blank"><button type="button" class="btn btn-primary"><h2>Use MyCardComps</h2></button></a>
-        </div>
-
         <p>We understand that finding the right comparable sports cards can be a time-consuming and tedious task, which is why we created this tool.</p>
         <p>With MyCardComps, you no longer have to spend hours researching and scouring the internet for comps. Simply input images of your card and let our technology do the work for you. Our tool will provide you with a list of comparable cards, their market value, and relevant information about each one.</p>
         <p>Whether you're a seasoned collector or just starting out, our sports card comps tool is the perfect tool for finding the information you need to make informed decisions about your collection.</p>
     </section>
-    <section id="submit-form">
+    <section id="issues">
+        <h2>Known Issues</h2>
+        <ul>
+            <li>Will sometimes mis-identify cards.</li>
+            <li>Has trouble distinguishing color variations.</li>
+            <li>Subsets listed as variations.</li>
+            <li>Trivia questions aren't always correct.</li>
+        </ul>
     </section>
     <footer class="d-flex justify-content-center">
-        <p class="fine-print">Copyright &copy; 2023 Vanderpool Consulting, LLC.</p>
+        <p class="fine-print">Copyright &copy; 2024 Vanderpool Consulting, LLC.</p>
     </footer>
-    <script>
-        function toggleDiv(form) {
-            var div = document.getElementById(form);
-            if (div.style.display === "none") {
-                div.style.display = "block";
-            } else {
-                div.style.display = "none";
-            }
-        }
-    </script>
 </body>
 </html>

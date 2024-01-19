@@ -72,6 +72,15 @@ p {
     margin:16px auto;
 }
 
+ul {
+    margin-left:50px;
+}
+
+a, a:visited {
+    color:white;
+    text-decoration: none;
+}
+
 .card-thumb {
     height:200px;
 }
